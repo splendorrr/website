@@ -217,8 +217,12 @@ a:hover {
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column; /* Stacks items vertically on smaller screens */
-        text-align: center;
-    }
+		text-align: center;
+	}
+		header h1{ 
+			font-size: 1.5em
+	}
+
 
     .header-image, .header-text {
         width: 100%; /* Full width for both on mobile */
@@ -228,6 +232,17 @@ a:hover {
         margin-right: 0; /* Removes margin for mobile view */
     }
 }
+
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    /* Adjust the form fields */
+    form input, form textarea {
+        width: 100%;
+    }
+
 
 /* Style the form */
 form {
